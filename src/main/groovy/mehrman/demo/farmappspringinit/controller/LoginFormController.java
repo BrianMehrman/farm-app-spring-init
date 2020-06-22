@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 
 @Controller
 @RequestMapping("/farm")
-public class LoginController {
+public class LoginFormController {
 
     @GetMapping("/login/guest")
     @ResponseBody
